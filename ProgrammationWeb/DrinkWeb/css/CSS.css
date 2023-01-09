@@ -1,0 +1,99 @@
+.footer{
+    background:rgb(153, 153, 153);
+    padding: 25px 15px;
+} 
+.footerMenu ul{
+    list-style: none;
+} 
+.footerMenu ul li{
+    float: right;
+    margin-left: 10px;
+    padding: 11px;
+} 
+.footerMenu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:13px;
+    font-family:tahoma;
+}
+.footerMenu ul li a:hover{
+    text-decoration: underline;
+}  
+.copyRight{
+    background: #666;
+    color: #fff;
+    font-family: tahoma;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+.l2{
+    float: left;
+}
+.w{
+    width: 1000px;
+    margin: 0px auto;
+}
+.r{
+    float: right;
+}
+.c{
+    clear: both;
+}
+.menuBar{
+    background-color:#808080;
+    border-top: 7px solid #03186C;
+    border-bottom: 3px solid #4E65C3;
+    padding: 10px;
+}
+.menuBar ul{
+    list-style:none;
+}
+.menuBar ul li{
+    float: left;
+    padding-left:10px 0px;
+    margin-left:5px;
+}
+.menuBar ul li a{
+    text-decoration:none;
+    font-family:tahoma;
+    font-size:20px;
+    color:#FFA500;
+    padding:10px;
+    border-radius:5px;
+}
+.menuBar ul li a:hover {
+    background:#b3cbf9  ;
+    color: #fff;
+}
+.search{
+    background: #fcebbd;
+    border-bottom: 3px solid rgb(255, 145, 0);
+    padding: 0px;
+}
+.searchForm input[type=text] {
+    margin-top: 5px;
+    padding:4px;
+    font-family: tahoma;
+    color: rgb(204, 204, 204);
+    width:150px;
+    border:2px solid rgb(179, 179, 179);
+    border-radius: 3px;
+}
+.sochil ul{
+    list-style: none;
+    margin-top:1px;
+}
+.sochil ul li{
+    float:right;
+    padding:10px 10px;
+}
+.sochil ul li a{
+    color: #fff;
+}
+.sochil ul li a:hover{
+    color: #fff;
+}
+.center {
+    align-items: center;
+}
