@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+        android:icon="@drawable/ic_icon"
+        android:title="Ajouter"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subitem1"
+                android:title="Piece"/>
+            <item android:id="@+id/subitem2"
+                android:title="Couloir"/>
+            <item android:id="@+id/subitem3"
+                android:title="Porte">
+            <menu>
+                <item android:id="@+id/subitemOuest"
+                    android:title="Mur Ouest"
+                    android:icon="@drawable/left">
+                    <menu>
+                        <item android:id="@+id/OuestTop"
+                            android:title="Top"
+                            android:icon="@drawable/mtop"/>
+                        <item android:id="@+id/OuestBottom"
+                            android:title="Bottom"
+                            android:icon="@drawable/mbottom"/>
+                    </menu>>
+                </item>
+                <item android:id="@+id/subitemNord"
+                    android:title="Mur Nord"
+                    android:icon="@drawable/top">
+                <menu>
+                    <item android:id="@+id/NordRight"
+                        android:title="Right"
+                        android:icon="@drawable/mright"/>
+                    <item android:id="@+id/NordLeft"
+                        android:title="Left"
+                        android:icon="@drawable/mleft"/>
+                </menu>>
+            </item>
+                <item android:id="@+id/subitemSud"
+                    android:title="Mur Sud"
+                    android:icon="@drawable/bottom">
+                    <menu>
+                        <item android:id="@+id/SudRight"
+                            android:title="Right"
+                            android:icon="@drawable/mright"/>
+                        <item android:id="@+id/SudLeft"
+                            android:title="Left"
+                            android:icon="@drawable/mleft"/>
+                    </menu>>
+                </item>
+                <item android:id="@+id/subitemEst"
+                    android:title="Mur Est"
+                    android:icon="@drawable/right">
+                    <menu>
+                        <item android:id="@+id/EstTop"
+                            android:title="Top"
+                            android:icon="@drawable/mtop"/>
+                        <item android:id="@+id/EstBottom"
+                            android:title="Bottom"
+                            android:icon="@drawable/mbottom"/>
+                    </menu>>
+                </item>
+            </menu>>
+            </item>
+        </menu>>
+    </item>
+    <item android:id="@+id/item2"
+        android:title="Supprimer"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item3"
+        android:title="Suspendre"
+        app:showAsAction="never"/>
+</menu>
