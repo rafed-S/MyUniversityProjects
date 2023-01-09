@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ ! -e sujet ]
+then
+    mkdir sujet
+fi
+
+if [ ! -e ressources ]
+then
+    mkdir ressources
+fi
+
+for fichierPdf in *.pdf
+do
+    mv $fichierPdf $sujet
+done
+
+for fichierZip in *.zip
+do
+    mv $fichierZip $ressources
+done
