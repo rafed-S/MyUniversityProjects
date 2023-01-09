@@ -1,0 +1,24 @@
+/**
+SAFOUR Rafed
+TD2-TP2
+08/04/2022
+Système1 - Mini-projet
+**/
+/*****************************/
+
+(( pour compiler dans terminal ))
+
+avec makefile :
+
+make
+./mini 
+
+((ou))
+
+sans makefile :
+
+gcc mini.c -o mini
+gcc fils.c projet_sys1_exo1.c -o fils
+./mini
+
+/******************************/
