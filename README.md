@@ -1,3 +1,3 @@
 # MyUniversityProjects
 
-َArchive of my University projects and lessons in computer science
+َArchive of my University projects and Courses in computer science
