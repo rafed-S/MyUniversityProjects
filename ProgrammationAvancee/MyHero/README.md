@@ -11,7 +11,7 @@ ____________________________________
 -----((( MyHero game )))-----
 
 
-## le fichier zip du jeu dontient
+## le fichier zip du jeu contient
 .
 - Code sources
 .
