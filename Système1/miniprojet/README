@@ -1,12 +1,10 @@
 /**
-SAFOUR Rafed
-TD2-TP2
 08/04/2022
 Système1 - Mini-projet
 **/
 /*****************************/
 
-(( pour compiler dans terminal ))
+(( pour compiler ))
 
 avec makefile :
 
