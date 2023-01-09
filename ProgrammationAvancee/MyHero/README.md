@@ -29,7 +29,7 @@ ____________________________________
 .
 .
 ## le lien git ##
-https://github.com/rafed-S/MyHero.git
+https://github.com/rafed-S/MyUniversityProjects/edit/main/ProgrammationAvancee/MyHero
 .
 .
 ## le code pour compiler le jeu ##
