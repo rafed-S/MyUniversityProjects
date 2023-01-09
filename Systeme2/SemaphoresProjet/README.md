@@ -1,3 +1,4 @@
+___________________________________________________
 ---{{ terminal commands }}---
 ___________________________________________________
 .
@@ -5,5 +6,6 @@ ___________________________________________________
 .
 ## gcc -Wall mes_semaphores TP5.c -o TP5
 .
-## ./TP5 test.txt (nb de fils) || ./TP5 ExtraitLeMonde2002.txt (nb de fils)
+## [ ./TP5 test.txt (nb de fils) ] || [ ./TP5 ExtraitLeMonde2002.txt (nb de fils) ]
 .
+___________________________________________________
