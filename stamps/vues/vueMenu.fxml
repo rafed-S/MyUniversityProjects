@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+
+<MenuBar prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stamps.controllers.VueMenu">
+  <menus>
+    <Menu mnemonicParsing="false" text="Fichier">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#saved" text="Sauvegarder" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#importerFile" text="Importer" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#sortir" text="Quitter" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Modifier">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#estEnConsultation" text="Consultation" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#estEnEdition" text="Edition" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar>

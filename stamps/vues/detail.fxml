@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="detail" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stamps.controllers.DonneeLivre">
+   <children>
+      <Label fx:id="detailResumer" prefHeight="17.0" prefWidth="152.0" text="Resumer">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="infoResumer" prefHeight="126.0" prefWidth="443.0" style="-fx-border-color: gray; -fx-border-width: 4;">
+         <children>
+            <Text fx:id="resumer" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="432.21630859375" />
+         </children>
+      </StackPane>
+      <Label fx:id="detailDonnee" text="Donnée">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="infoDonnee" prefHeight="126.0" prefWidth="443.0" style="-fx-border-color: gray; -fx-border-width: 4;">
+         <children>
+            <Text fx:id="donnee" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="432.21630859375" />
+         </children>
+      </StackPane>
+      <Label fx:id="detailMotsClee" text="Mots-Clés">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="infoMotsClee" prefHeight="126.0" prefWidth="443.0" style="-fx-border-color: gray; -fx-border-width: 4;">
+         <children>
+            <Text fx:id="genre" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="432.21630859375" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>
