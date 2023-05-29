@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.scene.control.ScrollPane?>
-
-<ScrollPane fx:id="afficheLivres" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stamps.controllers.VueAfficheLivres">
-  <content>
-      <fx:include source="livres.fxml" />
-   </content>
-</ScrollPane>
