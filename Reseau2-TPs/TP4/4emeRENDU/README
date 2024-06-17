@@ -1,0 +1,47 @@
+__________
+
+README - TP4 - 4emeRENDU - SAFOUR Rafed
+__________
+Q1)
+Est-ce que client3.py est compatible avec server2.py ? Justifier. (Attention: ce n’est pas parce que tout a fonctionné correctement quand vous lancez l’expérience que les programmes sont compatibles. Vous avez peut-être eu de la chance).
+R1)
+Non 
+client3.py, il envoie deux entiers de 4 octets chacun en deux fois 
+alors server2.py, il s'attend à recevoir les deux entiers en un seul bloc de 8 octets.
+___
+
+Q2)
+Est-ce que client2.py est compatible avec server3.py ? Justifier.
+R2)
+Non 
+client2.py, il envoie deux entiers de 4 octets chacun
+alors dans server3.py, il s'attend à recevoir les deux entiers séparément en deux blocs de 4 octets.
+___
+
+Q3)
+Recopier le fichier server2.py dans un fichier newserver2.py. La question suivante est à faire dans le nouveau fichier.
+R3)
+fait dans newserver2.py 
+___
+
+Q4)
+L’instruction recv(n) signifie “recevoir au maximum n octets”. Ecrire une fonction really_recv(s, n) qui prend en argument une socket et un entier n et qui renvoie exactement les n premiers octets reçus sur la socket. A l’intérieur de la fanction really_recv, il faudra donc lancer plusieurs fois la fonction recv() jusqu’à avoir reçu très exactement n octets. Vous pouvez ajouter des arguments à la fonction si vous le souhaitez.
+R4)
+fait dans newserver2.py 
+___
+
+Q5)
+Utilisez cette nouvelle fonction dans newserver2.py pour remplacer recv.
+R5)
+fait dans newserver2.py 
+___
+
+Q6)
+Est-ce que client3.py est compatible avec newserver2.py ? Justifier
+R6)
+Oui
+client3.py est maintenant compatible avec newserver2.py 
+car la fonction really_recv dans newserver2.py reçoit les mêmes données que client3.py envoie.
+
+__________
+

@@ -1,0 +1,42 @@
+__________
+
+README - TP3 - 3emeRENDU - SAFOUR Rafed
+__________
+
+1) on doit lancer 3 terminaux 
+2) on lance le 1er c'est serveur , le 2eme c'est client 1 et puis le 3eme c'est un client 2
+3) on donne un entier au premier client
+4) on donne le 1er et le 2eme entier au deuxième client
+(le résultat de la somme des deux premiers entiers envoyé au serveur)
+5) et puis on donne le 2eme entier au premier client
+
+__________
+
+1er c'est un server : 
+
+.../TP3/3emeRENDU$ python3 serveradd2.py 127.0.0.1 1234
+Premier entier reçu
+Premier deuxième entier reçu
+Premier entier reçu
+Premier deuxième entier reçu
+
+__________
+
+2eme c'est un client 1 : 
+
+.../TP3/3emeRENDU$ python3 clientadd2.py 127.0.0.1 1234
+Donner un entier : 1
+Donner un entier : 6
+Voici le résultat : 11
+
+__________
+
+3eme c'est un client 2 : 
+
+.../TP3/3emeRENDU$ python3 clientadd2.py 127.0.0.1 1234
+Donner un entier : 4
+Donner un entier : 5
+Voici le résultat : 5
+
+__________
+
